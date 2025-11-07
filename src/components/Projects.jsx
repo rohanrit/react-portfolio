@@ -11,35 +11,11 @@ const Projects = () => {
   const webSitesArray = [
     {
       id: 1,
-      title: "Job Portal Web 2024",
-      desc: "This is a Job Portal Website using Reactjs, Nodejs and MongoDb",
+      title: "Blood Report Portal",
+      desc: "This is a Horse Blood Report Portal Website using Reactjs, Nodejs and MongoDb",
       link: "https://digitallabresultapp.vercel.app/",
       jobPortaiImage: img_proj,
-      heading: "Job Portal Web ",
-    },
-    {
-      id: 2,
-      title: "Clothing E-commerce 2024",
-      desc: "This is a clothing E-commerce website using Reactjs, Nodejs and MongoDb",
-      link: "https://digitallabresultapp.vercel.app/",
-      jobPortaiImage: img_proj,
-      heading: "E-commerce Web",
-    },
-    {
-      id: 3,
-      title: "Electronics E-commerce Website 2024",
-      desc: "This is a electronics E-commerce Website using Reactjs, Nodejs and MongoDb",
-      link: "https://digitallabresultapp.vercel.app/",
-      jobPortaiImage: img_proj,
-      heading: "Electronics E-commerce Website",
-    },
-    {
-      id: 4,
-      title: "Amazon E-commerce Website 2025",
-      desc: "This is a Amazon E-commerce Website using NextJs and MongoDb",
-      link: "https://digitallabresultapp.vercel.app/",
-      jobPortaiImage: img_proj,
-      heading: "Amazon E-commerce Website",
+      heading: "RapidBlood",
     },
   ];
   return (

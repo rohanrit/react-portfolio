@@ -7,6 +7,7 @@ import {
   FaYoutube,
 } from 'react-icons/fa'
 import FooterListTitle from './FooterListTitle'
+import logoimg from "../../assets/devokdev-logo.jpg"
 const Footer = () => {
   const [subscription, setSubscription] = useState(false)
   const [emailInfo, setEmailInfo] = useState('')
@@ -46,12 +47,9 @@ const Footer = () => {
     <div className="w-full bg-[#F5F5F3] py-20">
       <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  xl:grid-cols-6 lg:px-10 md:px-10 px-8 gap-10">
         <div className="col-span-2">
-          <FooterListTitle title=" More about Rohanrit" />
+          <FooterListTitle title="" />
           <div className="flex flex-col gap-6">
-            <p className="text-base w-full xl:w-[80%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint
-              ab ullam, numquam nesciunt in.
-            </p>
+            <img src={logoimg} alt="" className="max-w-32 w-full overflow-hidden md:text-center  shadow-green-200" />
             <ul className="flex items-center gap-2 ">
               <a
                 href="https://www.youtube.com"

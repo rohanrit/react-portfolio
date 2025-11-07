@@ -9,9 +9,12 @@ import Skills from './pages/Skills'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import ProjectsPage from './pages/ProjectsPage'
+import Marquee from './components/Marquee'
 
 function App() {
   return (
+    <>
+     <Marquee text="This website is under maintenance, more data is getting added" />
     <BrowserRouter>
       <Navbar />
       < ToastContainer position='bottom-right' theme='dark' autoClose={5000} />
@@ -24,6 +27,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+    </>
   )
 }
 

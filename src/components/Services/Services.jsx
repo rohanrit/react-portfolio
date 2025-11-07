@@ -21,18 +21,25 @@ const Services = () => {
               text="I am using for frontend HTML, CSS, Javascript, and Reactjs"
             />
           </div>
-          <div className="anim card_2">
-            <ServicesCard
-              Image={backendImg}
-              heading="Backend Developer"
-              text="For backend I am using Nodejs, Expressjs, Database MongoDB"
-            />
-          </div>
           <div className="anim card_3">
             <ServicesCard
               Image={uiuxImg}
               heading="UI/UX Developer"
               text="For UI/UX I am using Figma, Canva"
+            />
+          </div>
+          <div className="anim card_2">
+            <ServicesCard
+              Image={backendImg}
+              heading="Web & Graphic Designer"
+              text="For backend I am using Nodejs, Expressjs, Database MongoDB"
+            />
+          </div>
+          <div className="anim card_2">
+            <ServicesCard
+              Image={backendImg}
+              heading="Digital Artist, Photo editor"
+              text="For backend I am using Nodejs, Expressjs, Database MongoDB"
             />
           </div>
         </div>

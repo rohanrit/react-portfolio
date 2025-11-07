@@ -13,9 +13,7 @@ const Hero = () => {
               </h2>
               <h1 className="anim  lg:text-5xl md:text-5xl sm:text-4xl text-3xl my-4 font-bold">Ritesh Rohan</h1>
               <p className="anim  text-md  ">
-                I am Senior Frontend developer with 16+ years in HTML/CSS/JS, 10 years in Figma/prototyping, and 18 years in graphic/web design—Ex: [Company 1], [Company 2], [Company 3]—specializing
-                in React/Next.js and conversion‑focused UI. Recently built a Next.js PDF‑reading RAG extractor and secure NestJS/Node APIs for horse data with TypeScript/Tailwind; skills include
-                React, Next.js, Node.js, Express, MongoDB, MySQL, Figma, and Adobe tools. Designer.
+                Currently working at SOCi.inc | Ex-knorisher | Sr. Frontend Designer | Graphic Designer | UI/UX Designer | Photographer | Digital Artist | Printing Expert | Sketch Artist | A Father | Ex-Nobilian | DIY Expert & a helpful friend.
               </p>
             </div>
 
@@ -33,10 +31,6 @@ const Hero = () => {
                 <button className="anim btn border-green-400 border-2  px-2 rounded-full p-2">
                   <BiLogoInstagramAlt className="text-xl text-green-400" />
                 </button>
-              </div>
-
-              <div className="contact-me">
-                <button className="anim btn contact-btn bg-green-400 px-10 py-2 rounded">Contact me</button>
               </div>
             </div>
           </div>
