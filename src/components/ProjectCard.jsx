@@ -23,7 +23,7 @@ const ProjectCard = ({ data }) => {
                     </NavLink>
                 </div>
             </div>
-            <NavLink to={data.link} target="_blank" className="pt-3 text-gray-50 font-semibold">
+            <NavLink to={data.link} target="_blank" className="pt-3 text-gray-700 dark:text-gray-300 font-semibold capitalize">
                 {data.heading}
             </NavLink>
         </div>

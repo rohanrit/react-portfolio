@@ -6,9 +6,6 @@ const ServicesCard = ({ Image, heading, text }) => {
       <img src={Image} alt="frontend-image-dark" className="hidden dark:block w-[40px] py-3" />
       <h1 className="text-2xl font-semibold px-6">{heading} </h1>
       <p className="text-sm py-3 px-5">{text}</p>
-      <button className="bg-blue-400 hover:bg-blue-600 py-2 px-3 rounded text-black my-3">
-        See moree...
-      </button>
     </div>
   )
 }
