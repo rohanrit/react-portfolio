@@ -7,6 +7,7 @@ import { useState } from 'react'
 import { useForm } from "react-hook-form"
 import { toast } from "react-toastify"
 import axios from "axios"
+import Heading from '../Heading/Heading'
 
 const Contact = () => {
   const [loading, setLoading] = useState(false)
@@ -38,11 +39,9 @@ const Contact = () => {
 
   return (
     <section className="container mx-auto px-4 min-h-[80vh] py-24 lg:px-10 md:px-10 px-8">
-      <h1 className="text-3xl text-white font-bold">
-        Get In <span className="text-green-500">Touch</span>
-      </h1>
+      <Heading heading="Get In" span="Touch" />
       <div className="lg:flex ">
-        <div className="flex w-[100%] py-8  text-white flex-col gap-6 rounded">
+        <div className="flex w-[100%] py-8 text-gray-700 dark:text-gray-300 flex-col gap-6 rounded">
           <div className="flex items-center gap-8 ">
             <span>
               <FaLocationDot className="w-[30px] h-[30px]" />
@@ -109,7 +108,7 @@ const Contact = () => {
             <div className="text-left">
               <button
                 type="submit"
-                className="bg-green-400 py-2 px-3 w-[200px] btn rounded hover:bg-green-500 text-white"
+                className="bg-blue-400 py-2 px-3 w-[200px] btn rounded hover:bg-blue-600 text-white"
               >
                 {loading ? "Loading..." : "Send"}
               </button>

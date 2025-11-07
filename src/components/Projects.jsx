@@ -1,11 +1,6 @@
 import Heading from "./Heading/Heading";
 import ProjectCard from "./ProjectCard";
-
 import img_proj from "../assets/heamatology-proj.png";
-import img_1 from "../assets/job_portal.png";
-import img_2 from "../assets/e_commerce.png";
-import img_3 from "../assets/electronics_web.png";
-import img_4 from "../assets/amazon.png";
 
 const Projects = () => {
   const webSitesArray = [
@@ -16,6 +11,38 @@ const Projects = () => {
       link: "https://digitallabresultapp.vercel.app/",
       jobPortaiImage: img_proj,
       heading: "RapidBlood",
+    },
+    {
+      id: 2,
+      title: "Recruitment Portal",
+      desc: "This is a recruitment & interview portal build in wordpress hosted on AWS lightsail",
+      link: "https://beewise.in/",
+      jobPortaiImage: img_proj,
+      heading: "Beewise",
+    },
+    {
+      id: 3,
+      title: "Horse Portal",
+      desc: "This is a horse bidding website",
+      link: "https://standardbredtrader.com.au/",
+      jobPortaiImage: img_proj,
+      heading: "standardbredtrader",
+    },
+    {
+      id: 4,
+      title: "Online Tutions",
+      desc: "This is a online tutions portal build on wix studio",
+      link: "https://www.preppp.com/",
+      jobPortaiImage: img_proj,
+      heading: "Preppp",
+    },
+    {
+      id: 5,
+      title: "Vetinary Equipments Portal",
+      desc: "This is a horse health equipments selling portal build in wordpress hosted on AWS lightsail",
+      link: "https://www.vetalyze.com.au/",
+      jobPortaiImage: img_proj,
+      heading: "vetalyze",
     },
   ];
   return (

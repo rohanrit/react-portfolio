@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import Heading from './Heading/Heading';
 
 const skillsData = [
   {
@@ -77,7 +78,9 @@ const Skills = () => {
   return (
     <div className="w-full min-h-[100vh] ">
       <div className="p-0 mx-auto max-w-[800px] ">
-          <h2 className="text-white text-4xl font-bold mb-3">#skills</h2>
+        
+          <Heading heading="Core" span="Skills" />
+          
           <div className="border p-5 rounded">
             {
               skillsData?.map((data) =>

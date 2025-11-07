@@ -6,6 +6,8 @@ import Modal from "./Modal";
 import { useModal } from "../hooks/useModal";
 import AuthForm from "./About/AuthForm";
 import logoimg from "../assets/devokdev-logo.jpg";
+import { useTheme } from "../hooks/useTheme";
+import { FaMoon, FaSun } from "react-icons/fa";
 
 const Navbar = () => {
   const [showmenu, setShowmenu] = useState(false);
@@ -14,6 +16,7 @@ const Navbar = () => {
   const showBtn = () => {
     setShowmenu(!showmenu);
   };
+  const { theme, toggleTheme } = useTheme();
 
   const user = JSON.parse(localStorage.getItem("user"));
   const name = user?.split("@")[0];
@@ -37,7 +40,9 @@ const Navbar = () => {
               <CgMenuRightAlt onClick={showBtn} className="text-2xl" />
             </span>
           </div>
-          
+           <button onClick={toggleTheme} className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition" aria-label="Toggle theme">
+          {theme === "light" ? <FaMoon className="w-5 h-5 text-gray-800" /> : <FaSun className="w-5 h-5 text-yellow-400" />}
+        </button>
         </div>
       </div>
 
@@ -74,14 +79,10 @@ const Navbar = () => {
       )}
 
       <Modal isOpen={isOpen} onClose={closeModal}>
-        {/* <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
-          {authType === 'login' ? 'Login' : 'Register'}
-        </h2> */}
-        {/* {authType === 'register' && <RegisterCom btnText={authType === 'login' ? 'Login' : 'Register'} />
-        }
-        {authType === "login" && <LoginCom />} */}
-
         <AuthForm authType={authType} closeModal={closeModal} setAuthType={setAuthType} />
+        <button onClick={toggleTheme} className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition" aria-label="Toggle theme">
+          {theme === "dark" ? <FaMoon className="w-5 h-5 text-gray-800" /> : <FaSun className="w-5 h-5 text-yellow-400" />}
+        </button>
       </Modal>
     </div>
   );
