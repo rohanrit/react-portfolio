@@ -5,11 +5,9 @@ const AboutSection = () => {
   return (
     <section className="container mx-auto px-4">
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 items-center lg:py-0">
-        <div className="col-span-1 w-full flex justify-center items-center mt-5 lg:mt-0 md:mt-0 ">
-          
-        <Skills/>
+        <div className="col-span-1 w-full flex justify-center items-center mt-5 lg:mt-0 md:mt-0 ">          
+          <Skills/>
         </div>
-
         <div className="col-span-2 lg:px-5  about-content">
           <Heading heading="About" span="Me" />
           <h2 className="anim sm:text-xl lg:text-2xl text-gray-700 dark:text-gray-300 md:text-2xl text-xl my-4 ">
