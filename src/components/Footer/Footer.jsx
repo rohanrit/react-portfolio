@@ -72,7 +72,7 @@ const Footer = () => {
               <NavLink
                 to={data.path}
                 key={data.id}
-                className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300"
+                className="font-titleFont text-gray-900 dark:text-gray-700 text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300"
               >
                 {data.name}
               </NavLink>
@@ -86,7 +86,7 @@ const Footer = () => {
               <NavLink
                 key={data?.id}
                 to={data?.path}
-                className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300"
+                className="font-titleFont  text-gray-900 dark:text-gray-700 text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300"
               >
                 {data?.name}
               </NavLink>
