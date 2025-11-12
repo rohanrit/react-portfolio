@@ -14,7 +14,7 @@ import Marquee from "./components/Marquee";
 function App() {
   return (
     <>
-      <Marquee text="This website is under maintenance, more data is getting added" />
+      {/* <Marquee text="This website is under maintenance, more data is getting added" /> */}
       <BrowserRouter>
         <Navbar />
         <ToastContainer position="bottom-right" theme="dark" autoClose={5000} />

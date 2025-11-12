@@ -15,8 +15,7 @@ const ContactPage = () => {
       </div>
       <div className="w-[100%] h-[400px]">
         <div className="w-[100%] h-[100%]">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7405649263!2d139.7431840749225!3d35.6587630312093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x1fe4f7d846e657e2!2sTOKYO%20TOWER%20%E2%80%9CCHO-TEN%E2%80%9D%20HIGHBALL%20GARDEN!5e0!3m2!1sen!2sjp!4v1713864982183!5m2!1sen!2sjp"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16781.14377174108!2d77.01386883483683!3d28.510773766254047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1989e68a3611%3A0xc0206b130cc92511!2sPalam%20Vihar%2C%20Gurugram%2C%20Haryana!5e1!3m2!1sen!2sin!4v1762922557055!5m2!1sen!2sin"
             height="450"
             style={{ border: 0, width: '100%' }}
             allowfullscreen=""

@@ -10,10 +10,10 @@ import {
 const Hero = () => {
   return (
     <section className="container mx-auto px-4 transition-colors duration-300">
-      <div className="grid grid-cols-12 gap-6 p-6 pt-[150px] mt-0 text-gray-900 dark:text-gray-100">
+      <div className="grid grid-cols-12 gap-6 py-6 pt-[150px] mt-0 text-gray-900 dark:text-gray-100">
         
         {/* ===== Left Text Section ===== */}
-        <div className="col-span-12 md:col-span-8 order-2 md:order-1 p-8 rounded-lg bg-transparent">
+        <div className="col-span-12 md:col-span-8 order-2 md:order-1 p-8 ps-8 md:ps-0 rounded-lg bg-transparent">
           <div>
             <h2 className="anim text-3xl sm:text-3xl md:text-4xl lg:text-4xl font-bold">
               Hi there, {`It's`}
@@ -24,10 +24,12 @@ const Hero = () => {
               Ritesh Rohan
             </h1>
 
+            <p className="anim text-md font-bold text-gray-700 dark:text-gray-300 leading-relaxed mb-3">
+              Currently working at SOCi.inc | Ex-knorisher | A Father | Ex-Nobilian
+            </p>
+
             <p className="anim text-md text-gray-700 dark:text-gray-300 leading-relaxed">
-              Currently working at SOCi.inc | Ex-knorisher | Sr. Frontend Designer | 
-              Graphic Designer | UI/UX Designer | Photographer | Digital Artist | 
-              Printing Expert | Sketch Artist | A Father | Ex-Nobilian | DIY Expert & a helpful friend.
+              AI automation |  Sr. Frontend Developer | Web & Graphic Designer | UI/UX Designer | WordPress Developer | Codeigniter developer  | Photographer | Digital Artist | Printing Expert | Sketch Artist | DIY Expert & a helpful FREELANCER.
             </p>
           </div>
 

@@ -4,7 +4,7 @@ import Heading from './Heading/Heading';
 const skillsData = [
   {
     title: "HTML",
-    textColor: "text-gray-200 dark:text-white",
+    textColor: "text-gray-700 dark:text-white",
     width: "w-[100%]",
     bgColor: "bg-gray-600",
     percentText: "100"
@@ -81,7 +81,7 @@ const Skills = () => {
         
           <Heading heading="Core" span="Skills" />
           
-          <div className="border p-5 rounded">
+          <div className="border p-5 rounded mt-3">
             {
               skillsData?.map((data) =>
                 <div key={data?.title}>
